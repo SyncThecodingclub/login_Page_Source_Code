@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+</head>
+<style>
+    body{ 
+        background-color: rgb(0, 0, 18);   
+    }
+    .container{
+        border: 1px solid slateblue;
+        border-radius: 20em;
+        text-align: center;
+        padding: 3em;
+        color: blue;
+        margin: 0 auto;
+        margin-top: 5em;
+        width: 50%;
+        height: 55vh;
+        background-color: black;
+
+    }
+    .gmail{
+        margin-top: 3em;
+    }
+    input{
+        color: white;
+        background-color:  rgb(11, 11, 91);
+        margin: 0 auto;
+        height: 1.40em;
+        width: 82%;
+        border: none;
+        border-radius: 1em;
+    }
+    .reset{
+        background: none;
+        margin-top: 1em;
+        font-size: 0.72em;
+    }
+    .b3{
+        text-align: center;
+        background-color: blueviolet;
+        color: black;
+        border-radius: 2em;
+        height: 2em;
+        width: 35%;
+        margin-top:4em;
+    }
+    button{
+        color: blue;
+        background: none;
+        border: none;
+        width: 40%;
+        margin-top:3em;
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+       
+    }
+    button:hover{
+        text-decoration: overline;
+        color: blueviolet;
+    }
+    button.b3:hover{
+        text-decoration: underline;
+        background-color: blue;
+        color: black;
+    }
+    
+    h1{
+        text-align: center;
+    }
+    img{
+        height: 2em;
+        width: 2em;
+    }
+
+
+</style>
+<body>
+    <form action="backend.php">
+        <div class="container">
+            <h1>Login</h1>
+            <div class="gmail">
+                <img src="/login.png" alt="loading">
+                <input type="email">
+            </div><br>
+            <div class="password">
+                <input type="password">
+                <img src="/img2.jpg" alt="loading">
+            </div>
+            <div class="next">
+                <button class="b3">Submit</button><br>
+                <button class="b1">Forgot Password?</button>
+                <button class="b2">Signup!</button>
+            </div>
+            <input class="reset" type="reset" value="R e s e t">
+        </div>
+    </form>
+</body>
+</html>
